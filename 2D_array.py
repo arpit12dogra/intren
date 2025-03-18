@@ -1,13 +1,4 @@
-# Program demonstrating 2D array
-arr = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
-
-# here we are Printing the 2D array
-print("The elements of the 2D array are:")
-for row in arr:
-    for element in row:
-        print(element, end=" ")
-    print()  # Move to the next line after printing a row
+num1=input("enter the value: ") 
+num2=input("enetr the value: ")
+sum=num1+num2
+print(sum)
